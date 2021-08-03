@@ -1,0 +1,14 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scene_2\Scripts\Scene2_Scripts\Nobita Scripts\PlayerBound2.cs">
+    <Files>
+      <File FileName="Assets\Scene_GameGUI\Scripts\GameNavigatorController.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scene_1\Scripts\Player Script\FinishScript_1.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scene_2\Scripts\Scene2_Scripts\Nobita Scripts\PlayerBound2.cs" Line="13" Column="30" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

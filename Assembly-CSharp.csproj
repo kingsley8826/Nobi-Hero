@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{0C2393AA-931B-53B2-A1A2-78FE1AB8DE41}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_4_1;UNITY_5_4;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_EDITOR_RETINA;ENABLE_RETINA_GUISTYLES;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_SPRITE_POLYGON;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;ENABLE_EDITOR_TESTS_RUNNER;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_TEXTUREID_MAP;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_EVENT_QUEUE;ENABLE_CLUSTERINPUT;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>D:/Untity/Install/Editor/Data/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>D:/Untity/Install/Editor/Data/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Game Controller\CoinManager.cs" />
+     <Compile Include="Assets\Game Controller\Player Controller.cs" />
+     <Compile Include="Assets\Game Controller\Type.cs" />
+     <Compile Include="Assets\Scene_1\Scripts\Background Script\BGScript_1.cs" />
+     <Compile Include="Assets\Scene_1\Scripts\Boundary\Bounder_1.cs" />
+     <Compile Include="Assets\Scene_1\Scripts\Boundary\RightBounder_1.cs" />
+     <Compile Include="Assets\Scene_1\Scripts\Bullet Script\SharpBullet_1.cs" />
+     <Compile Include="Assets\Scene_1\Scripts\EnemyScript\EnemyBullet_1.cs" />
+     <Compile Include="Assets\Scene_1\Scripts\EnemyScript\Enemy_1.cs" />
+     <Compile Include="Assets\Scene_1\Scripts\EnemyScript\SelfDestroy_1.cs" />
+     <Compile Include="Assets\Scene_1\Scripts\GamePlay Controller\PlayerBlood1.cs" />
+     <Compile Include="Assets\Scene_1\Scripts\Ground\AutoMove_1.cs" />
+     <Compile Include="Assets\Scene_1\Scripts\Monster Script\MonsterScript_1.cs" />
+     <Compile Include="Assets\Scene_1\Scripts\Monster Script\MonsterScript_Land_1.cs" />
+     <Compile Include="Assets\Scene_1\Scripts\Player Script\FinishScript_1.cs" />
+     <Compile Include="Assets\Scene_1\Scripts\Player Script\PlayerBehaviour_1.cs" />
+     <Compile Include="Assets\Scene_1\Scripts\Scene1Controller.cs" />
+     <Compile Include="Assets\Scene_1\Scripts\Smoke Script\Move_1.cs" />
+     <Compile Include="Assets\Scene_1\Scripts\Spawner Script\CoinSpawner_1.cs" />
+     <Compile Include="Assets\Scene_1\Scripts\Spawner Script\Spawner1_1.cs" />
+     <Compile Include="Assets\Scene_2\Scripts\Scene2Crtl.cs" />
+     <Compile Include="Assets\Scene_2\Scripts\Scene2_Scripts\Background Scripts\BGScaler2.cs" />
+     <Compile Include="Assets\Scene_2\Scripts\Scene2_Scripts\Background Scripts\BGScrolling2.cs" />
+     <Compile Include="Assets\Scene_2\Scripts\Scene2_Scripts\Bullet Scripts\BossBullet2.cs" />
+     <Compile Include="Assets\Scene_2\Scripts\Scene2_Scripts\Bullet Scripts\Bullet2.cs" />
+     <Compile Include="Assets\Scene_2\Scripts\Scene2_Scripts\Bullet Scripts\EnemyBullet2.cs" />
+     <Compile Include="Assets\Scene_2\Scripts\Scene2_Scripts\Bullet Scripts\PlayerBullet2.cs" />
+     <Compile Include="Assets\Scene_2\Scripts\Scene2_Scripts\Bullet Scripts\UtilBullet2.cs" />
+     <Compile Include="Assets\Scene_2\Scripts\Scene2_Scripts\Coin Scripts\Coin2.cs" />
+     <Compile Include="Assets\Scene_2\Scripts\Scene2_Scripts\Coin Scripts\SmallCoin.cs" />
+     <Compile Include="Assets\Scene_2\Scripts\Scene2_Scripts\Enemy Scripts\BossScripts2.cs" />
+     <Compile Include="Assets\Scene_2\Scripts\Scene2_Scripts\Enemy Scripts\Enemy2.cs" />
+     <Compile Include="Assets\Scene_2\Scripts\Scene2_Scripts\GamePlay Controller\BossBlood2.cs" />
+     <Compile Include="Assets\Scene_2\Scripts\Scene2_Scripts\GamePlay Controller\PlayerBlood2.cs" />
+     <Compile Include="Assets\Scene_2\Scripts\Scene2_Scripts\GamePlay Controller\PlayerUtil2.cs" />
+     <Compile Include="Assets\Scene_2\Scripts\Scene2_Scripts\Item Scripts\Item2.cs" />
+     <Compile Include="Assets\Scene_2\Scripts\Scene2_Scripts\Nobita Scripts\Nobita2.cs" />
+     <Compile Include="Assets\Scene_2\Scripts\Scene2_Scripts\Nobita Scripts\PlayerBound2.cs" />
+     <Compile Include="Assets\Scene_2\Scripts\Scene2_Scripts\Spawer Scripts\Spawner2.cs" />
+     <Compile Include="Assets\Scene_3\Scripts\BackGroundScripts\BGScripts.cs" />
+     <Compile Include="Assets\Scene_3\Scripts\Boss\Boss.cs" />
+     <Compile Include="Assets\Scene_3\Scripts\Boundary\Border.cs" />
+     <Compile Include="Assets\Scene_3\Scripts\Boundary\BorderLeft.cs" />
+     <Compile Include="Assets\Scene_3\Scripts\Boundary\BorderRight.cs" />
+     <Compile Include="Assets\Scene_3\Scripts\Bullets\AutoBullet.cs" />
+     <Compile Include="Assets\Scene_3\Scripts\Bullets\SharpBullet_3.cs" />
+     <Compile Include="Assets\Scene_3\Scripts\Bullets\UtilBullet_3.cs" />
+     <Compile Include="Assets\Scene_3\Scripts\Camera\CameraFollow.cs" />
+     <Compile Include="Assets\Scene_3\Scripts\Camera\cameraShake.cs" />
+     <Compile Include="Assets\Scene_3\Scripts\EnemyScript\BeanScript.cs" />
+     <Compile Include="Assets\Scene_3\Scripts\EnemyScript\Enemy.cs" />
+     <Compile Include="Assets\Scene_3\Scripts\Explosion\Destroyer.cs" />
+     <Compile Include="Assets\Scene_3\Scripts\GamePlay Controller\BossBlood_3.cs" />
+     <Compile Include="Assets\Scene_3\Scripts\GamePlay Controller\PlayerBlood_3.cs" />
+     <Compile Include="Assets\Scene_3\Scripts\GamePlay Controller\PlayerUtil_3.cs" />
+     <Compile Include="Assets\Scene_3\Scripts\Ground\AutoMove.cs" />
+     <Compile Include="Assets\Scene_3\Scripts\PlayerScripts\PlayerBehaviour.cs" />
+     <Compile Include="Assets\Scene_3\Scripts\Scene3Crtl.cs" />
+     <Compile Include="Assets\Scene_3\Scripts\Sounds\Sound.cs" />
+     <Compile Include="Assets\Scene_3\Scripts\Spawner\EnemySpawner.cs" />
+     <Compile Include="Assets\Scene_3\Scripts\Spawner\GroundSpawner.cs" />
+     <Compile Include="Assets\Scene_GameGUI\Scripts\Buy Button Script\Mouse.cs" />
+     <Compile Include="Assets\Scene_GameGUI\Scripts\Coin Script\SelfIdle.cs" />
+     <Compile Include="Assets\Scene_GameGUI\Scripts\GameNavigatorController.cs" />
+     <Compile Include="Assets\Scene_GameMenu\Scripts\GameMenuScript.cs" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>D:/Untity/Install/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>D:/Untity/Install/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
